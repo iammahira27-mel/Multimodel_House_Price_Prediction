@@ -57,9 +57,8 @@ Additional techniques used:
 
 ## Key Results / Observations
 
-- The initial custom VGG-style approach was too large for the dataset and tended to overfit.
-- Replacing it with a **pretrained ResNet18 backbone** made the image branch more efficient and reliable.
-- The smaller tabular branch and compact fusion head reduced model complexity.
+- By using **pretrained ResNet18 backbone** made the image branch efficient and reliable.
+- The compact fusion head reduced model complexity.
 - Log-transforming the target improved learning stability for a skewed price distribution.
 - The final pipeline was better suited for multimodal learning and more appropriate for the available dataset size.
 
