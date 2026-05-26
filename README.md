@@ -9,7 +9,7 @@ This project aims to predict housing prices using two complementary sources of i
 
 The objective is to build a **multimodal regression model** that learns from both data types and evaluates performance using **MAE** and **RMSE**.
 
-## Methodology / Approach
+## Methodology
 
 ### 1. Data preparation
 - Loaded the housing dataset from CSV.
@@ -55,7 +55,7 @@ Additional techniques used:
   - **RMSE**
 - Scatter plots and residual plots were used to inspect prediction quality.
 
-## Key Results / Observations
+## Key Results 
 
 - By using **pretrained ResNet18 backbone** made the image branch efficient and reliable.
 - The compact fusion head reduced model complexity.
