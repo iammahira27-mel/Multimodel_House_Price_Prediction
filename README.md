@@ -61,6 +61,7 @@ Additional techniques used:
 - The compact fusion head reduced model complexity.
 - Log-transforming the target improved learning stability for a skewed price distribution.
 - The final pipeline was better suited for multimodal learning and more appropriate for the available dataset size.
+- The high RMSE value means images and noisy and not capturing enough fine-grained price variation
 
 ## Model Architecture
 
